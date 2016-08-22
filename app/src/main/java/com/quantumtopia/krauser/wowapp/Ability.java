@@ -7,6 +7,6 @@ public class Ability
 {
     public Ability()
     {
-        this is my motherfucking change motherfucker
+        int myintMotherfucker;
     }
 }
