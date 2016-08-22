@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxxhdpi"
+    format="7"
+    timestamp="4485356902876"
+    token="-4566863997899604900" >
+
+    <task
+        name="javac"
+        duration="7687" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="253" />
+    <task
+        name="verifier"
+        duration="101" />
+
+    <artifact
+        location="C:\Users\Krauser\AndroidStudioProjects\WoWApp\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="4485356902876" >
+        <artifact
+            location="C:\Users\Krauser\AndroidStudioProjects\WoWApp\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
