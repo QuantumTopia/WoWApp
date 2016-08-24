@@ -1,5 +1,6 @@
 package com.quantumtopia.krauser.wowapp;
 
+import java.util.List;
 import java.util.Queue;
 
 /**
@@ -7,9 +8,13 @@ import java.util.Queue;
  */
 public class Encounter
 {
-    private Queue<AbilityQueueElement> ability_queue;
+    private List<Target> targets;
+    private List<DamageAbility> abilities;
+    private Player player;
     public static float current_time;
     private int total_time;
+    private Target current_target;
+    private DamageAbility current_ability;
 
     public Encounter()
     {
@@ -18,12 +23,5 @@ public class Encounter
 
     private void advance_time()
     {
-        // add ability to queue
-        // advance time by 0.1s
-            // apply all abilities in queue before current time
-                // remove those abilities
-        // check if encounter is over
-            // current time >= total_time
-            // all targets dead
     }
 }

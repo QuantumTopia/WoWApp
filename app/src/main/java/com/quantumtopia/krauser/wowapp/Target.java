@@ -10,6 +10,7 @@ public class Target
     private int current_health;
     private float health_percentage;
     private boolean alive;
+    private String name;
 
     public Target(int health)
     {
